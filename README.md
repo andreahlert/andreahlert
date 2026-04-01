@@ -22,14 +22,6 @@
 
 - 📫 Reach me at **andre@aex.partners**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://github.com/andreahlert" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="andreahlert" height="30" width="40" /></a>
-  <a href="https://twitter.com/andre_ahlert" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="andre_ahlert" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/ahlert" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ahlert" height="30" width="40" /></a>
-  <a href="https://ahlert.substack.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="blog" height="30" width="40" /></a>
-</p>
-
 <h3 align="left">What I'm building:</h3>
 
 <table>
@@ -62,9 +54,9 @@
 
 | Project | Role |
 | --- | --- |
-| [Flyte SDK](https://github.com/flyteorg/flyte-sdk) | Contributor - Anthropic Claude + Google Gemini plugins |
-| [Apache Burr](https://github.com/apache/burr) | Contributor - 12 PRs merged |
-| [Apache Airflow](https://github.com/apache/airflow) | Contributor - 8 PRs merged |
+| [Flyte SDK](https://github.com/flyteorg/flyte-sdk) | Contributor |
+| [Apache Burr](https://github.com/apache/burr) | Contributor |
+| [Apache Airflow](https://github.com/apache/airflow) | Contributor |
 | [Jenkins authorize-project](https://github.com/jenkinsci/authorize-project-plugin) | Plugin Maintainer |
 | [Backstage community-plugins](https://github.com/backstage/community-plugins) | Plugin Maintainer (n8n workspace) |
 
