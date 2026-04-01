@@ -1,186 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" fill="none">
   <defs>
-    <!-- Gradient background -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
-    </linearGradient>
-
-    <!-- Accent gradient -->
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="50%" stop-color="#bc8cff"/>
-      <stop offset="100%" stop-color="#58a6ff"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;200%;100%" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
     </linearGradient>
-
-    <!-- Glow filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Soft glow for orbs -->
-    <filter id="softglow">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
-
-    <!-- Grid pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
-    </pattern>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="320" fill="url(#bg)" rx="8"/>
-
-  <!-- Grid overlay -->
-  <rect width="900" height="320" fill="url(#grid)" opacity="0.4" rx="8"/>
-
-  <!-- Floating orbs -->
-  <circle cx="120" cy="80" r="60" fill="#58a6ff" opacity="0.04" filter="url(#softglow)">
-    <animate attributeName="cx" values="120;150;120" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="80;110;80" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="780" cy="240" r="80" fill="#bc8cff" opacity="0.04" filter="url(#softglow)">
-    <animate attributeName="cx" values="780;750;780" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="240;210;240" dur="9s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="50" r="40" fill="#58a6ff" opacity="0.03" filter="url(#softglow)">
-    <animate attributeName="cy" values="50;70;50" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="650" cy="100" r="50" fill="#f78166" opacity="0.03" filter="url(#softglow)">
-    <animate attributeName="cx" values="650;680;650" dur="10s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Decorative lines -->
-  <line x1="60" y1="280" x2="260" y2="280" stroke="url(#accent)" stroke-width="1" opacity="0.3">
-    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="4s" repeatCount="indefinite"/>
-  </line>
-  <line x1="640" y1="40" x2="840" y2="40" stroke="url(#accent)" stroke-width="1" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- Small floating dots -->
-  <circle cx="200" cy="60" r="1.5" fill="#58a6ff" opacity="0.6">
-    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="60;55;60" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="700" cy="280" r="1.5" fill="#bc8cff" opacity="0.6">
-    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="280;275;280" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="350" cy="290" r="1" fill="#58a6ff" opacity="0.5">
-    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="550" cy="35" r="1" fill="#f78166" opacity="0.5">
-    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="100" cy="180" r="1.2" fill="#bc8cff" opacity="0.4">
-    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="820" cy="160" r="1.2" fill="#58a6ff" opacity="0.4">
-    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
+  <rect width="900" height="200" fill="#0d1117" rx="6"/>
 
   <!-- Name -->
-  <text x="450" y="110" text-anchor="middle" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="48" font-weight="700" fill="#e6edf3" filter="url(#glow)">
+  <text x="450" y="80" text-anchor="middle" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="42" font-weight="700" fill="#e6edf3">
     André Ahlert
   </text>
 
-  <!-- Animated underline -->
-  <rect x="280" y="125" width="0" height="2.5" rx="1" fill="url(#accent)">
-    <animate attributeName="width" values="0;340;340" dur="1.5s" fill="freeze" begin="0.3s"/>
-    <animate attributeName="x" values="450;280;280" dur="1.5s" fill="freeze" begin="0.3s"/>
+  <!-- Underline -->
+  <rect x="310" y="95" width="280" height="2" rx="1" fill="url(#accent)" opacity="0.6">
+    <animate attributeName="width" values="0;280" dur="1.2s" fill="freeze"/>
+    <animate attributeName="x" values="450;310" dur="1.2s" fill="freeze"/>
   </rect>
 
-  <!-- Role -->
-  <text x="450" y="165" text-anchor="middle" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="18" fill="#8b949e">
+  <!-- Subtitle -->
+  <text x="450" y="130" text-anchor="middle" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" fill="#8b949e">
     Founder @ AEX Partners
   </text>
 
-  <!-- Rotating taglines -->
-  <text x="450" y="210" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', monospace" font-size="16" fill="url(#accent)" filter="url(#glow)">
-    <tspan>
-      <animate attributeName="opacity" values="0;1;1;0" dur="9s" repeatCount="indefinite" begin="0s"/>
-      &gt; building developer tools
-    </tspan>
+  <!-- Tagline -->
+  <text x="450" y="165" text-anchor="middle" font-family="'Fira Code', monospace" font-size="14" fill="#58a6ff" opacity="0.8">
+    developer tools · htmx ecosystem · open source
   </text>
-  <text x="450" y="210" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', monospace" font-size="16" fill="url(#accent)" filter="url(#glow)">
-    <tspan>
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" dur="9s" repeatCount="indefinite" begin="0s"/>
-      &gt; htmx ecosystem tooling
-    </tspan>
-  </text>
-  <text x="450" y="210" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', monospace" font-size="16" fill="url(#accent)" filter="url(#glow)">
-    <tspan>
-      <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1" dur="9s" repeatCount="indefinite" begin="0s"/>
-      &gt; open source contributor
-    </tspan>
-  </text>
-
-  <!-- Tech badges row -->
-  <!-- Python -->
-  <rect x="195" y="245" width="80" height="28" rx="6" fill="#1e2a38" stroke="#3776AB" stroke-width="0.8" opacity="0.9">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1s"/>
-  </rect>
-  <text x="235" y="264" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#58a6ff" opacity="0">
-    Python
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1s"/>
-  </text>
-
-  <!-- TypeScript -->
-  <rect x="285" y="245" width="95" height="28" rx="6" fill="#1e2a38" stroke="#3178C6" stroke-width="0.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.15s"/>
-  </rect>
-  <text x="332" y="264" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#58a6ff" opacity="0">
-    TypeScript
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.15s"/>
-  </text>
-
-  <!-- Go -->
-  <rect x="390" y="245" width="50" height="28" rx="6" fill="#1e2a38" stroke="#00ADD8" stroke-width="0.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.3s"/>
-  </rect>
-  <text x="415" y="264" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#58a6ff" opacity="0">
-    Go
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.3s"/>
-  </text>
-
-  <!-- Rust -->
-  <rect x="450" y="245" width="60" height="28" rx="6" fill="#1e2a38" stroke="#B7410E" stroke-width="0.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.45s"/>
-  </rect>
-  <text x="480" y="264" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#58a6ff" opacity="0">
-    Rust
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.45s"/>
-  </text>
-
-  <!-- Java -->
-  <rect x="520" y="245" width="60" height="28" rx="6" fill="#1e2a38" stroke="#F89820" stroke-width="0.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.6s"/>
-  </rect>
-  <text x="550" y="264" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#58a6ff" opacity="0">
-    Java
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.6s"/>
-  </text>
-
-  <!-- HTMX -->
-  <rect x="590" y="245" width="65" height="28" rx="6" fill="#1e2a38" stroke="#3366CC" stroke-width="0.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.75s"/>
-  </rect>
-  <text x="622" y="264" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#58a6ff" opacity="0">
-    HTMX
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.75s"/>
-  </text>
-
-  <!-- Border glow bottom -->
-  <rect x="0" y="316" width="900" height="4" rx="2" fill="url(#accent)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
-  </rect>
 </svg>

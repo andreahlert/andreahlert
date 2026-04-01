@@ -10,21 +10,21 @@
   <tr>
     <td align="center" width="300">
       <a href="https://github.com/kilnx-org/kilnx">
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/><br/>
+        <img src="https://avatars.githubusercontent.com/u/270853807?s=80&v=4" width="48" alt="Kilnx"/><br/>
         <strong>Kilnx</strong>
       </a><br/>
       <sub>Backend language designed for the HTMX era</sub>
     </td>
     <td align="center" width="300">
       <a href="https://github.com/provero-org/provero">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/><br/>
+        <img src="https://avatars.githubusercontent.com/u/267934292?s=80&v=4" width="48" alt="Provero"/><br/>
         <strong>Provero</strong>
       </a><br/>
       <sub>Declarative data quality engine. YAML checks, run anywhere.</sub>
     </td>
     <td align="center" width="300">
       <a href="https://github.com/atoolz">
-        <img src="https://img.shields.io/badge/AToolZ-181717?style=for-the-badge&logo=github&logoColor=white" alt="AToolZ"/><br/>
+        <img src="https://avatars.githubusercontent.com/u/269725415?s=80&v=4" width="48" alt="AToolZ"/><br/>
         <strong>AToolZ</strong>
       </a><br/>
       <sub>Developer tooling org: VS Code extensions, Railway templates, CLIs</sub>
@@ -108,13 +108,13 @@
     <td align="center" width="180">
       <a href="https://github.com/jenkinsci/authorize-project-plugin">
         <strong>Jenkins</strong><br/>
-        <img src="https://img.shields.io/badge/-Maintainer-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Plugin_Maintainer-D24939?style=flat-square&logo=jenkins&logoColor=white" />
       </a>
     </td>
     <td align="center" width="180">
       <a href="https://github.com/backstage/community-plugins">
         <strong>Backstage</strong><br/>
-        <img src="https://img.shields.io/badge/-Contributor-9BF0E1?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Plugin_Maintainer-9BF0E1?style=flat-square" />
       </a>
     </td>
   </tr>
