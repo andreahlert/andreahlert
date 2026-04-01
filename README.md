@@ -1,76 +1,83 @@
 <div align="center">
-
-<a href="https://github.com/andreahlert">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+developer+tools;HTMX+ecosystem+tooling;Open+source+contributor&font=Fira+Code&center=true&width=440&height=45&color=58a6ff&vCenter=true&pause=1000&size=22" />
-</a>
-
-# André Ahlert
-
-Founder @ [AEX Partners](https://github.com/AEX-Partners-Corp)
-
-[![GitHub](https://img.shields.io/badge/-andreahlert-181717?style=flat-square&logo=github)](https://github.com/andreahlert)
-[![Twitter](https://img.shields.io/badge/-@andre__ahlert-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://twitter.com/andre_ahlert)
-[![Email](https://img.shields.io/badge/-andre@aex.partners-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andre@aex.partners)
-
+  <img src="./header.svg" width="100%" alt="André Ahlert - Building developer tools" />
 </div>
 
 ---
 
 ### What I'm building
 
-<a href="https://github.com/kilnx-org/kilnx">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=kilnx-org&repo=kilnx&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_owner=true" />
-</a>
-<a href="https://github.com/provero-org/provero">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=provero-org&repo=provero&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_owner=true" />
-</a>
-<a href="https://github.com/atoolz/htmx-devtools">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=htmx-devtools&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_owner=true" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="300">
+      <a href="https://github.com/kilnx-org/kilnx">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/><br/>
+        <strong>Kilnx</strong>
+      </a><br/>
+      <sub>Backend language designed for the HTMX era</sub>
+    </td>
+    <td align="center" width="300">
+      <a href="https://github.com/provero-org/provero">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/><br/>
+        <strong>Provero</strong>
+      </a><br/>
+      <sub>Declarative data quality engine. YAML checks, run anywhere.</sub>
+    </td>
+    <td align="center" width="300">
+      <a href="https://github.com/atoolz">
+        <img src="https://img.shields.io/badge/AToolZ-181717?style=for-the-badge&logo=github&logoColor=white" alt="AToolZ"/><br/>
+        <strong>AToolZ</strong>
+      </a><br/>
+      <sub>Developer tooling org: VS Code extensions, Railway templates, CLIs</sub>
+    </td>
+  </tr>
+</table>
 
-<br/><br/>
+### Highlights
 
-<a href="https://github.com/atoolz/htmx-vscode-toolkit">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=htmx-vscode-toolkit&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_owner=true" />
-</a>
-<a href="https://github.com/andreahlert/flyte-vscode">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=andreahlert&repo=flyte-vscode&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_owner=true" />
-</a>
-<a href="https://github.com/atoolz?q=railway-htmx">
-  <img align="center" width="278" src="https://img.shields.io/badge/Railway_HTMX_Templates-8_stacks-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://github.com/atoolz/htmx-devtools">
+        <img src="https://img.shields.io/badge/-htmx--devtools-3366CC?style=flat-square&logo=googlechrome&logoColor=white" /><br/>
+        <sub>Browser DevTools for HTMX</sub>
+      </a>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/atoolz/htmx-vscode-toolkit">
+        <img src="https://img.shields.io/badge/-htmx--vscode--toolkit-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /><br/>
+        <sub>IntelliSense for 20+ languages</sub>
+      </a>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/andreahlert/flyte-vscode">
+        <img src="https://img.shields.io/badge/-flyte--vscode-8B5CF6?style=flat-square&logo=visualstudiocode&logoColor=white" /><br/>
+        <sub>Code intelligence for Flyte</sub>
+      </a>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/atoolz?q=railway-htmx">
+        <img src="https://img.shields.io/badge/-Railway_Templates-0B0D0E?style=flat-square&logo=railway&logoColor=white" /><br/>
+        <sub>HTMX starters for 8 stacks</sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <details>
 <summary><strong>More from AToolZ</strong></summary>
 <br/>
 
-VS Code toolkits, Railway deploy templates, LSP servers, and CLI tools.
-
-<a href="https://github.com/atoolz/kitty-vscode-toolkit">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=kitty-vscode-toolkit&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866" />
-</a>
-<a href="https://github.com/atoolz/zellij-vscode-toolkit">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=zellij-vscode-toolkit&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866" />
-</a>
-<a href="https://github.com/atoolz/kitty-lsp-toolkit">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=kitty-lsp-toolkit&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866" />
-</a>
+<a href="https://github.com/atoolz/kitty-vscode-toolkit"><img src="https://img.shields.io/badge/-kitty--vscode--toolkit-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /></a>
+<a href="https://github.com/atoolz/zellij-vscode-toolkit"><img src="https://img.shields.io/badge/-zellij--vscode--toolkit-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /></a>
+<a href="https://github.com/atoolz/kitty-lsp-toolkit"><img src="https://img.shields.io/badge/-kitty--lsp--toolkit-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /></a>
+<a href="https://github.com/atoolz/hurl-vscode-toolkit"><img src="https://img.shields.io/badge/-hurl--vscode--toolkit-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /></a>
+<a href="https://github.com/atoolz/starship-vscode-toolkit"><img src="https://img.shields.io/badge/-starship--vscode--toolkit-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /></a>
+<a href="https://github.com/atoolz/telvar"><img src="https://img.shields.io/badge/-telvar-00ADD8?style=flat-square&logo=go&logoColor=white" /></a>
+<a href="https://github.com/atoolz/turnis"><img src="https://img.shields.io/badge/-turnis-00ADD8?style=flat-square&logo=go&logoColor=white" /></a>
 
 <br/><br/>
 
-<a href="https://github.com/atoolz/hurl-vscode-toolkit">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=hurl-vscode-toolkit&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866" />
-</a>
-<a href="https://github.com/atoolz/starship-vscode-toolkit">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=starship-vscode-toolkit&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866" />
-</a>
-<a href="https://github.com/atoolz/telvar">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=atoolz&repo=telvar&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/orgs/atoolz/repositories"><img src="https://img.shields.io/badge/-All_AToolZ_Repos-0d1117?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://github.com/orgs/atoolz/repositories"><img src="https://img.shields.io/badge/-All_AToolZ_Repos_→-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </details>
 
@@ -78,25 +85,37 @@ VS Code toolkits, Railway deploy templates, LSP servers, and CLI tools.
 
 ### Open Source
 
-<a href="https://github.com/flyteorg/flyte-sdk">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=flyteorg&repo=flyte-sdk&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_description=false" />
-</a>
-<a href="https://github.com/apache/burr">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=apache&repo=burr&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_description=false" />
-</a>
-<a href="https://github.com/apache/airflow">
-  <img align="center" width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=apache&repo=airflow&theme=react&bg_color=0d1117&title_color=58a6ff&hide_border=true&icon_color=f8d866&show_description=false" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/jenkinsci/authorize-project-plugin"><img src="https://img.shields.io/badge/Jenkins-Maintainer-D24939?style=flat-square&logo=jenkins&logoColor=white" /></a>
-<a href="https://github.com/backstage/community-plugins"><img src="https://img.shields.io/badge/Backstage-Contributor-9BF0E1?style=flat-square" /></a>
-
----
-
-<div align="center">
-
-![Tech Stack](https://skillicons.dev/icons?i=python,typescript,go,rust,java,htmx,docker,vscode&theme=dark)
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="180">
+      <a href="https://github.com/flyteorg/flyte-sdk">
+        <strong>Flyte SDK</strong><br/>
+        <img src="https://img.shields.io/badge/-Contributor-8B5CF6?style=flat-square" />
+      </a>
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/apache/burr">
+        <strong>Apache Burr</strong><br/>
+        <img src="https://img.shields.io/badge/-Contributor-D22128?style=flat-square" />
+      </a>
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/apache/airflow">
+        <strong>Apache Airflow</strong><br/>
+        <img src="https://img.shields.io/badge/-Contributor-017CEE?style=flat-square" />
+      </a>
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/jenkinsci/authorize-project-plugin">
+        <strong>Jenkins</strong><br/>
+        <img src="https://img.shields.io/badge/-Maintainer-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/backstage/community-plugins">
+        <strong>Backstage</strong><br/>
+        <img src="https://img.shields.io/badge/-Contributor-9BF0E1?style=flat-square" />
+      </a>
+    </td>
+  </tr>
+</table>
