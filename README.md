@@ -57,8 +57,8 @@
 | [Flyte SDK](https://github.com/flyteorg/flyte-sdk) | Contributor |
 | [Apache Burr](https://github.com/apache/burr) | Contributor |
 | [Apache Airflow](https://github.com/apache/airflow) | Contributor |
-| [Jenkins authorize-project](https://github.com/jenkinsci/authorize-project-plugin) | Plugin Maintainer |
-| [Backstage community-plugins](https://github.com/backstage/community-plugins) | Plugin Maintainer (n8n workspace) |
+| [Jenkins (Authorize Project Plugin)](https://github.com/jenkinsci/authorize-project-plugin) | Plugin Maintainer |
+| [Backstage (N8N Plugin)](https://github.com/backstage/community-plugins/tree/main/workspaces/n8n) | Plugin Maintainer |
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
