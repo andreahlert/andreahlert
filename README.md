@@ -1,6 +1,6 @@
 ## André Ahlert
 
-Backend engineer for AI infrastructure and developer experience. Go and Python, with TypeScript and Rust where the work demands it. I ship small, focused, self-contained software: one binary, one config, one deploy.
+Staff Product Engineer and Architect for AI infrastructure and developer experience. Go and Python, with TypeScript and Rust where the work demands it. I ship small, focused, self-contained software, while mentoring fellow engineers.
 
 ### Featured
 
